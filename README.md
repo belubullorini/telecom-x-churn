@@ -2,7 +2,7 @@
   <img src="assets/Banner-telecomX.gif" alt="Banner del proyecto" width="600">
 </p>
 
-![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
+![Estado](https://img.shields.io/badge/estado-finalizado-brightgreen)
 ![Lenguaje](https://img.shields.io/badge/lenguaje-Python-blue)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
 ![Última actualización](https://img.shields.io/badge/actualizado-2025--12--12-purple)
@@ -28,8 +28,8 @@ Incluye extracción desde API, proceso ETL, limpieza, análisis exploratorio, vi
 ---
 
 ## 📌 Estado del proyecto
-✅ Proyecto en desarrollo  
-Incluye extracción desde API, ETL y análisis exploratorio completo.
+✅ Proyecto finalizado  
+Incluye extracción desde API, proceso ETL completo, análisis exploratorio y conclusiones estratégicas.
 
 ---
 
