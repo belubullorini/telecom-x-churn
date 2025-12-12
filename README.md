@@ -44,6 +44,8 @@ Se busca:
 - Generar insights estratégicos  
 - Proponer mejoras basadas en datos  
 
+📌 Este proyecto simula el rol de una analista de datos en un contexto real de negocio, aplicando técnicas de **ETL**, **EDA** y **comunicación de insights** para apoyar la toma de decisiones estratégicas.
+
 ---
 
 ## 🗂 Estructura del proyecto
@@ -120,6 +122,7 @@ git clone https://github.com/belubullorini/telecom-x-churn.git
 ```bash
 pip install pandas matplotlib seaborn requests
 ```
+
 ### 3️⃣ Ejecutar el notebook
 
 Podés ejecutarlo en **Google Colab** o **Jupyter Notebook** siguiendo este flujo:
@@ -128,7 +131,11 @@ Podés ejecutarlo en **Google Colab** o **Jupyter Notebook** siguiendo este fluj
 - Limpieza y transformación  
 - Análisis exploratorio (EDA)  
 - Visualizaciones  
-- Conclusiones  
+- Conclusiones
+
+📌 **Nota sobre rutas de archivos** 
+Si ejecutás el proyecto en Google Colab, el archivo JSON debe cargarse en el entorno /content/.
+Si lo ejecutás en local, asegurate de mantener la estructura de carpetas data/raw/ y ajustar el path según corresponda.
 
 ---
 
