@@ -143,7 +143,7 @@ Podés ejecutarlo en **Google Colab** o **Jupyter Notebook** siguiendo este fluj
 
 ## 👩‍💻 Autoría
 
-Proyecto realizado por **Belu Bullorini**, en el marco del programa  
+Proyecto realizado por **M. Belén Bullorini**, en el marco del programa  
 **ONE Oracle Next Education**.
 
 🔗 LinkedIn: https://www.linkedin.com/in/belenbullorini  
