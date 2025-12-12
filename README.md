@@ -52,7 +52,8 @@ Se busca:
 telecom-x-churn/
 │
 ├── data/
-│   └── telecom.json                 # Datos obtenidos desde la API
+│   └── raw/
+│       └── TelecomX_Data.json       # Datos obtenidos desde la API
 │
 ├── images/                          # Gráficos generados durante el EDA
 │   ├── evasion.png
@@ -61,14 +62,14 @@ telecom-x-churn/
 │   ├── metodopago_evasion.png
 │   ├── serviciointernet_evasion.png
 │   ├── antiguedad_evasion.png
-│   ├── pagototal_evasion.png
+│   ├── pagotota_evasion.png
 │   ├── pago_mensual.png
 │   ├── correlacion_numericas.png
 │   ├── correlacion_servicios.png
 │   └── relacion_diario_evasion.png
 │
 ├── notebooks/
-│   └── telecom_x_churn.ipynb        # Notebook principal con ETL y EDA
+│   └── TelecomX_LATAM.ipynb          # Notebook principal con ETL y EDA
 │
 └── README.md                        # Documentación del proyecto
 ```
