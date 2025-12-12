@@ -1,118 +1,118 @@
-📊 Telecom X – Análisis de Evasión de Clientes (Churn)
+# 📊 Telecom X – Análisis de Evasión de Clientes (Churn)
 
-Este proyecto forma parte del desafío Telecom X del programa ONE Oracle Next Education.
-El objetivo principal es analizar el comportamiento de los clientes y detectar patrones asociados a la evasión (churn). El análisis incluye extracción de datos desde una API, proceso ETL, limpieza, análisis exploratorio (EDA), visualizaciones y generación de insights.
+Este proyecto forma parte del desafío **Telecom X** del programa **ONE Oracle Next Education**.  
+El objetivo principal es analizar el comportamiento de los clientes y detectar patrones asociados a la evasión (churn).  
+El análisis incluye extracción de datos desde una API, proceso ETL, limpieza, análisis exploratorio (EDA), visualizaciones y generación de insights.
 
-🎯 Propósito del análisis
-El propósito de este proyecto es comprender qué factores influyen en que un cliente permanezca o abandone el servicio.
+---
+
+## 🧾 Índice
+
+- 📌 Estado del proyecto  
+- 🎯 Propósito del análisis  
+- 📁 Estructura del proyecto  
+- 📊 Ejemplos de gráficos e insights obtenidos  
+- 🧠 Principales descubrimientos  
+- 🚀 Instrucciones para ejecutar el proyecto  
+- 📝 Recomendaciones finales  
+- 🙌 Autoría  
+
+---
+
+## 📌 Estado del proyecto  
+✅ Proyecto en desarrollo.  
+Incluye extracción desde API, ETL y análisis exploratorio completo.
+
+---
+
+## 🎯 Propósito del análisis  
+
+El propósito de este proyecto es comprender qué factores influyen en que un cliente permanezca o abandone el servicio.  
 A través del análisis se busca:
 
-* Detectar las variables más asociadas a la evasión.
-* Visualizar comportamientos y tendencias clave.
-* Generar insights que apoyen decisiones estratégicas.
-* Proponer recomendaciones basadas en datos para reducir el churn.
+* Detectar las variables más asociadas a la evasión.  
+* Visualizar comportamientos y tendencias clave.  
+* Generar insights que apoyen decisiones estratégicas.  
+* Proponer recomendaciones basadas en datos para reducir el churn.  
 
-📁 Estructura del Proyecto
-telecom-x-churn/
-│
-├── data/  
-│   └── telecom.json              # Datos obtenidos desde la API
-│
-├── images/                       # Gráficos generados durante el EDA
-│   ├── evasion.png
-│   ├── genero_evasion.png
-│   ├── contrato_evasion.png
-│   ├── metodopago_evasion.png
-│   ├── serviciointernet_evasion.png
-│   ├── antiguedad_evasion.png
-│   ├── pagototal_evasion.png
-│   ├── pago_mensual.png
-│   ├── correlacion_numericas.png
-│   ├── correlacion_servicios.png
-│   └── relacion_diario_evasion.png
-│
-├── notebooks/
-│   └── telecom_x_churn.ipynb     # Notebook principal con extracción, ETL y EDA
-│
-└── README.md                     # Documentación del proyecto
+---
 
-📌 Ejemplos de gráficos e insights obtenidos
-✔️ Distribución general de Evasión
-<img src="images/evasion.png" width="600">
-✔️ Evasión por tipo de contrato
+---
 
-El contrato mes a mes muestra el mayor churn.
-<img src="images/contrato_evasion.png" width="600">
+## 📊 Ejemplos de gráficos e insights obtenidos
 
-✔️ Método de pago
+✔️ **Distribución general de Evasión**  
+<img src="images/evasion.png" width="500">
 
-El cheque electrónico tiene la tasa de abandono más alta.
-<img src="images/metodopago_evasion.png" width="600">
+✔️ **Evasión por tipo de contrato**  
+El contrato mes a mes muestra el mayor churn.  
+<img src="images/contrato_evasion.png" width="500">
 
-✔️ Fibra óptica
+✔️ **Método de pago**  
+El cheque electrónico tiene la tasa de abandono más alta.  
+<img src="images/metodopago_evasion.png" width="500">
 
-Los clientes con fibra presentan mayor evasión que DSL.
-<img src="images/serviciointernet_evasion.png" width="600">
+✔️ **Fibra óptica**  
+Los clientes con fibra presentan mayor evasión que DSL.  
+<img src="images/serviciointernet_evasion.png" width="500">
 
-✔️ Antigüedad
+✔️ **Antigüedad**  
+Los clientes que abandonan suelen llevar poco tiempo.  
+<img src="images/antiguedad_evasion.png" width="500">
 
-Los clientes que abandonan suelen llevar poco tiempo.
-<img src="images/antiguedad_evasion.png" width="600">
+✔️ **Correlación entre variables numéricas**  
+<img src="images/correlacion_numericas.png" width="500">
 
-✔️ Correlación entre variables numéricas
-<img src="images/correlacion_numericas.png" width="600">
-🧠 Principales descubrimientos
+---
 
-(Estos son los que ya escribiste, van acá tal cual los tenés).
-✔ Tipo de contrato → predictor más fuerte
-✔ Método de pago → cheque electrónico = alto riesgo
-✔ Fibra óptica → mayores tasas de evasión
-✔ Clientes nuevos → mayor abandono
-✔ Género → no relevante
+## 🧠 Principales descubrimientos
 
-🚀 Instrucciones para ejecutar el proyecto
+✔ Tipo de contrato → predictor más fuerte  
+✔ Método de pago → cheque electrónico = alto riesgo  
+✔ Fibra óptica → mayores tasas de evasión  
+✔ Clientes nuevos → mayor abandono  
+✔ Género → no relevante  
 
-Clonar el repositorio:
+---
 
-git clone https://github.com/belubullorini/telecom-x-churn.git
+## 🚀 Instrucciones para ejecutar el proyecto
 
+### 1️⃣ Clonar el repositorio
 
-Instalar las dependencias necesarias (Python 3.10+):
+### 2️⃣ Instalar dependencias (Python 3.10+)
 
-pip install pandas matplotlib seaborn requests
+### 3️⃣ Ejecutar el notebook en Google Colab o Jupyter Notebook
 
+📌 **Si usás Colab:**
 
-Ejecutar el notebook en Google Colab o Jupyter Notebook.
+- Subir el archivo `.ipynb`  
+- Asegurarte de tener internet habilitado para consultar la API  
+- Correr el flujo completo:
 
-Si usás Colab:
+  * Extracción de datos desde API  
+  * Limpieza  
+  * Transformación  
+  * EDA  
+  * Visualizaciones  
+  * Conclusiones  
 
-Subir el archivo .ipynb
+---
 
-Asegurarte de tener internet habilitado para consultar la API
+## 📝 Recomendaciones finales
 
-Correr el flujo completo:
+✔ Incentivar contratos largos  
+✔ Promover pagos automáticos  
+✔ Revisar servicio de fibra  
+✔ Programa de retención primeros 3 meses  
+✔ Segmentar campañas según riesgo  
 
-Extracción de datos desde API
+---
 
-Limpieza
+## 🙌 Autoría  
 
-Transformación
+Proyecto realizado por **M. Belén Bullorini**, en el marco del programa **ONE Oracle Next Education**.  
+LinkedIn: https://www.linkedin.com/in/belenbullorini  
+GitHub: https://github.com/belubullorini  
 
-EDA
+## 📁 Estructura del Proyecto
 
-Visualizaciones
-
-Conclusiones
-
-📝 Recomendaciones finales
-
-(Agregás acá las recomendaciones que ya escribiste.)
-✔ Incentivar contratos largos
-✔ Promover pagos automáticos
-✔ Revisar servicio de fibra
-✔ Programa de retención primeros 3 meses
-✔ Segmentar campañas según riesgo
-
-🙌 Autoría
-
-Proyecto realizado por Belu Bullorini, en el marco del programa ONE Oracle Next Education.
