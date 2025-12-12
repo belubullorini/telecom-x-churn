@@ -72,5 +72,83 @@ telecom-x-churn/
 │
 └── README.md                        # Documentación del proyecto
 ```
+---
+
+## 📊 Ejemplos gráficos e insights
+
+✔ **Distribución general de Evasión**  
+<img src="images/evasion.png" width="600">
+
+✔ **Contrato y evasión**  
+<img src="images/contrato_evasion.png" width="600">
+
+✔ **Método de pago**  
+<img src="images/metodopago_evasion.png" width="600">
+
+✔ **Servicio de internet**  
+<img src="images/serviciointernet_evasion.png" width="600">
+
+✔ **Antigüedad**  
+<img src="images/antiguedad_evasion.png" width="600">
+
+✔ **Correlación entre variables numéricas**  
+<img src="images/correlacion_numericas.png" width="600">
+
+---
+
+## 🧠 Principales descubrimientos
+
+- El tipo de contrato es el predictor más fuerte de evasión  
+- El cheque electrónico presenta la tasa más alta de churn  
+- La fibra óptica muestra mayor evasión que DSL  
+- Los clientes con menor antigüedad abandonan más  
+- El género no presenta diferencias relevantes  
+
+---
+
+## 🚀 Instrucciones para ejecutar
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/belubullorini/telecom-x-churn.git
+```
+
+### 2️⃣ Instalar dependencias
+
+```bash
+pip install pandas matplotlib seaborn requests
+```
+### 3️⃣ Ejecutar el notebook
+
+Podés ejecutarlo en **Google Colab** o **Jupyter Notebook** siguiendo este flujo:
+
+- Extracción de datos desde la API  
+- Limpieza y transformación  
+- Análisis exploratorio (EDA)  
+- Visualizaciones  
+- Conclusiones  
+
+---
+
+## 📝 Recomendaciones finales
+
+- Incentivar contratos de mayor duración  
+- Promover métodos de pago automáticos  
+- Revisar calidad del servicio de fibra óptica  
+- Implementar programas de retención temprana  
+- Segmentar campañas según riesgo de churn  
+
+---
+
+## 👩‍💻 Autoría
+
+Proyecto realizado por **Belu Bullorini**, en el marco del programa  
+**ONE Oracle Next Education**.
+
+🔗 LinkedIn: https://www.linkedin.com/in/belenbullorini  
+🔗 GitHub: https://github.com/belubullorini
+
+
 
 
