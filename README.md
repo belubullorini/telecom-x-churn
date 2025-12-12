@@ -1,118 +1,76 @@
+<p align="center">
+  <img src="assets/Banner-telecomX.gif" alt="Banner del proyecto" width="600">
+</p>
+
+![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
+![Lenguaje](https://img.shields.io/badge/lenguaje-Python-blue)
+![Licencia](https://img.shields.io/badge/licencia-MIT-green)
+![Última actualización](https://img.shields.io/badge/actualizado-2025--12--12-purple)
+
 # 📊 Telecom X – Análisis de Evasión de Clientes (Churn)
 
-Este proyecto forma parte del desafío **Telecom X** del programa **ONE Oracle Next Education**.  
-El objetivo principal es analizar el comportamiento de los clientes y detectar patrones asociados a la evasión (churn).  
-El análisis incluye extracción de datos desde una API, proceso ETL, limpieza, análisis exploratorio (EDA), visualizaciones y generación de insights.
+Proyecto desarrollado dentro del **desafío Telecom X** del programa **ONE Oracle Next Education**.  
+Incluye extracción desde API, proceso ETL, limpieza, análisis exploratorio, visualizaciones y generación de insights estratégicos.
 
 ---
 
 ## 🧾 Índice
 
-- 📌 Estado del proyecto  
-- 🎯 Propósito del análisis  
-- 📁 Estructura del proyecto  
-- 📊 Ejemplos de gráficos e insights obtenidos  
-- 🧠 Principales descubrimientos  
-- 🚀 Instrucciones para ejecutar el proyecto  
-- 📝 Recomendaciones finales  
-- 🙌 Autoría  
+- [📌 Estado del proyecto](#-estado-del-proyecto)
+- [🎯 Propósito del análisis](#-propósito-del-análisis)
+- [🗂 Estructura del proyecto](#-estructura-del-proyecto)
+- [📊 Ejemplos gráficos e insights](#-ejemplos-gráficos-e-insights)
+- [🧠 Principales descubrimientos](#-principales-descubrimientos)
+- [🚀 Instrucciones para ejecutar](#-instrucciones-para-ejecutar)
+- [📝 Recomendaciones finales](#-recomendaciones-finales)
+- [👩‍💻 Autoría](#-autoría)
 
 ---
 
-## 📌 Estado del proyecto  
-✅ Proyecto en desarrollo.  
+## 📌 Estado del proyecto
+✅ Proyecto en desarrollo  
 Incluye extracción desde API, ETL y análisis exploratorio completo.
 
 ---
 
-## 🎯 Propósito del análisis  
+## 🎯 Propósito del análisis
 
-El propósito de este proyecto es comprender qué factores influyen en que un cliente permanezca o abandone el servicio.  
-A través del análisis se busca:
+El objetivo central es comprender **qué variables influyen en la evasión de clientes** y detectar patrones clave para la toma de decisiones.
 
-* Detectar las variables más asociadas a la evasión.  
-* Visualizar comportamientos y tendencias clave.  
-* Generar insights que apoyen decisiones estratégicas.  
-* Proponer recomendaciones basadas en datos para reducir el churn.  
+Se busca:
 
----
-
----
-
-## 📊 Ejemplos de gráficos e insights obtenidos
-
-✔️ **Distribución general de Evasión**  
-<img src="images/evasion.png" width="500">
-
-✔️ **Evasión por tipo de contrato**  
-El contrato mes a mes muestra el mayor churn.  
-<img src="images/contrato_evasion.png" width="500">
-
-✔️ **Método de pago**  
-El cheque electrónico tiene la tasa de abandono más alta.  
-<img src="images/metodopago_evasion.png" width="500">
-
-✔️ **Fibra óptica**  
-Los clientes con fibra presentan mayor evasión que DSL.  
-<img src="images/serviciointernet_evasion.png" width="500">
-
-✔️ **Antigüedad**  
-Los clientes que abandonan suelen llevar poco tiempo.  
-<img src="images/antiguedad_evasion.png" width="500">
-
-✔️ **Correlación entre variables numéricas**  
-<img src="images/correlacion_numericas.png" width="500">
+- Identificar factores asociados al churn  
+- Visualizar tendencias  
+- Generar insights estratégicos  
+- Proponer mejoras basadas en datos  
 
 ---
 
-## 🧠 Principales descubrimientos
+## 🗂 Estructura del proyecto
 
-✔ Tipo de contrato → predictor más fuerte  
-✔ Método de pago → cheque electrónico = alto riesgo  
-✔ Fibra óptica → mayores tasas de evasión  
-✔ Clientes nuevos → mayor abandono  
-✔ Género → no relevante  
+```text
+telecom-x-churn/
+│
+├── data/
+│   └── telecom.json                 # Datos obtenidos desde la API
+│
+├── images/                          # Gráficos generados durante el EDA
+│   ├── evasion.png
+│   ├── genero_evasion.png
+│   ├── contrato_evasion.png
+│   ├── metodopago_evasion.png
+│   ├── serviciointernet_evasion.png
+│   ├── antiguedad_evasion.png
+│   ├── pagototal_evasion.png
+│   ├── pago_mensual.png
+│   ├── correlacion_numericas.png
+│   ├── correlacion_servicios.png
+│   └── relacion_diario_evasion.png
+│
+├── notebooks/
+│   └── telecom_x_churn.ipynb        # Notebook principal con ETL y EDA
+│
+└── README.md                        # Documentación del proyecto
+```
 
----
-
-## 🚀 Instrucciones para ejecutar el proyecto
-
-### 1️⃣ Clonar el repositorio
-
-### 2️⃣ Instalar dependencias (Python 3.10+)
-
-### 3️⃣ Ejecutar el notebook en Google Colab o Jupyter Notebook
-
-📌 **Si usás Colab:**
-
-- Subir el archivo `.ipynb`  
-- Asegurarte de tener internet habilitado para consultar la API  
-- Correr el flujo completo:
-
-  * Extracción de datos desde API  
-  * Limpieza  
-  * Transformación  
-  * EDA  
-  * Visualizaciones  
-  * Conclusiones  
-
----
-
-## 📝 Recomendaciones finales
-
-✔ Incentivar contratos largos  
-✔ Promover pagos automáticos  
-✔ Revisar servicio de fibra  
-✔ Programa de retención primeros 3 meses  
-✔ Segmentar campañas según riesgo  
-
----
-
-## 🙌 Autoría  
-
-Proyecto realizado por **M. Belén Bullorini**, en el marco del programa **ONE Oracle Next Education**.  
-LinkedIn: https://www.linkedin.com/in/belenbullorini  
-GitHub: https://github.com/belubullorini  
-
-## 📁 Estructura del Proyecto
 
