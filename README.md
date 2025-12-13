@@ -73,7 +73,8 @@ telecom-x-churn/
 ├── notebooks/
 │   └── TelecomX_LATAM.ipynb          # Notebook principal con ETL y EDA
 │
-└── README.md                        # Documentación del proyecto
+├── LICENSE                         # Licencia MIT del proyecto
+└── README.md                      # Documentación del proyecto
 ```
 ---
 
