@@ -64,7 +64,7 @@ telecom-x-churn/
 │   ├── metodopago_evasion.png
 │   ├── serviciointernet_evasion.png
 │   ├── antiguedad_evasion.png
-│   ├── pagotota_evasion.png
+│   ├── pagototal_evasion.png
 │   ├── pago_mensual.png
 │   ├── correlacion_numericas.png
 │   ├── correlacion_servicios.png
@@ -81,21 +81,27 @@ telecom-x-churn/
 ## 📊 Ejemplos gráficos e insights
 
 ✔ **Distribución general de Evasión**  
+Proporción entre clientes que permanecen en la empresa y aquellos que cancelan el servicio.    
 <img src="images/evasion.png" width="600">
 
 ✔ **Contrato y evasión**  
+El tipo de contrato muestra una fuerte relación con la evasión, destacándose el contrato mes a mes como el de mayor churn.  
 <img src="images/contrato_evasion.png" width="600">
 
 ✔ **Método de pago**  
+Los clientes que utilizan cheque electrónico presentan una tasa de evasión significativamente más alta que quienes usan métodos automáticos.  
 <img src="images/metodopago_evasion.png" width="600">
 
 ✔ **Servicio de internet**  
+La fibra óptica concentra la mayor proporción de clientes que abandonan, en comparación con DSL y clientes sin servicio.  
 <img src="images/serviciointernet_evasion.png" width="600">
 
 ✔ **Antigüedad**  
+Los clientes con menor tiempo en la empresa tienden a evadirse con mayor frecuencia.  
 <img src="images/antiguedad_evasion.png" width="600">
 
 ✔ **Correlación entre variables numéricas**  
+Las variables numéricas no presentan correlaciones fuertes entre sí, lo que sugiere que la evasión no depende exclusivamente de factores económicos.  
 <img src="images/correlacion_numericas.png" width="600">
 
 ---
@@ -136,6 +142,7 @@ Podés ejecutarlo en **Google Colab** o **Jupyter Notebook** siguiendo este fluj
 
 📌 **Nota sobre rutas de archivos** 
 Si ejecutás el proyecto en Google Colab, el archivo JSON debe cargarse en el entorno /content/.
+Se recomienda ejecutar el notebook en Google Colab para evitar posibles inconvenientes con las rutas de archivos y la carga del JSON.
 Si lo ejecutás en local, asegurate de mantener la estructura de carpetas data/raw/ y ajustar el path según corresponda.
 
 ---
