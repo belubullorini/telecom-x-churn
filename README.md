@@ -140,9 +140,9 @@ Podés ejecutarlo en **Google Colab** o **Jupyter Notebook** siguiendo este fluj
 - Visualizaciones  
 - Conclusiones
 
-📌 **Nota sobre rutas de archivos** 
-Si ejecutás el proyecto en Google Colab, el archivo JSON debe cargarse en el entorno /content/.
-Se recomienda ejecutar el notebook en Google Colab para evitar posibles inconvenientes con las rutas de archivos y la carga del JSON.
+📌 **Nota sobre rutas de archivos**  
+Si ejecutás el proyecto en Google Colab, el archivo JSON debe cargarse en el entorno /content/.  
+Se recomienda ejecutar el notebook en Google Colab para evitar posibles inconvenientes con las rutas de archivos y la carga del JSON.  
 Si lo ejecutás en local, asegurate de mantener la estructura de carpetas data/raw/ y ajustar el path según corresponda.
 
 ---
